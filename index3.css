@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6f94b7;
+}
+header {
+  background-color: #1d344e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+}
+/* Estilos para a barra de navegação */
+nav {
+  background-color: #1d344e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+nav h3 {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.cima {
+  background-color: #1d344e;
+  width: 100%;
+  height: 300px;
+  margin-top: -23px;
+}
+.pessoas {
+  display: block; /* Para alinhar corretamente */
+  margin: auto; /* Centraliza horizontalmente */
+  margin-top: -50px;
+  border-radius: 20px;
+  width: 600px;
+  height: 450px;
+  margin-top: -30px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: -500px;
+  font-family: "Lato", sans-serif;
+}
+.texto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  font-family: "Lato", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.quadro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #abbbc8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -200px;
+  width: 900px;
+  height: 700px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 70px;
+  margin-bottom: 1%;
+}
+.nomes {
+  font-family: "Lato", sans-serif;
+  margin-top: 30px;
+}
+@media screen and (max-width: 950px) {
+  /* Estilos para telas menores */
+
+  header {
+    padding: 0.5rem;
+  }
+
+  .pessoas {
+    width: 80%; /* Ajusta a largura da imagem para ocupar toda a largura do container */
+    height: auto; /* Permite a adaptação da altura automaticamente */
+    margin-top: 0; /* Remove o recuo superior */
+    border-radius: 0; /* Remove o raio de borda (se necessário) */
+  }
+
+  .texto {
+    width: 100%; /* Ajusta a largura do texto para ocupar todo o container */
+    font-size: 14px; /* Diminui o tamanho da fonte para melhor adaptação */
+    text-align: left; /* Mantém o texto alinhado à esquerda */
+    margin-top: 20px; /* Espaço entre a imagem e o texto */
+    padding: 0 10px; /* Adiciona um pequeno espaço interno aos lados */
+  }
+
+  .quadro {
+    width: 80%; /* Reduz a largura do container principal */
+    padding: 20px; /* Reduz o preenchimento interno */
+    margin-top: -150px; /* Ajusta o espaçamento superior */
+    border-radius: 20px; /* Adiciona um raio de borda para manter a estilização */
+  }
+}
